@@ -11,5 +11,5 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v2
-      - uses: sigstore/cosign-installer@main
+      - uses: raulcabello/cosign-installer@main
       - run: cosign version
